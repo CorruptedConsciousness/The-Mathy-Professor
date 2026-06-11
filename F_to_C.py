@@ -1,11 +1,13 @@
-# Converts degress Celsius to degrees Fahrenheit.
+# Converts degrees Farenheit to degrees Celsius. 
 
-def farenheit_celcius(f_temp):
+def fahrenheit_celsius(f_temp):
     c_temp = (f_temp - 32) * (5 / 9)
     return c_temp
 
-# Asks user for Celsius input, performs conversion,
+# Asks user for Fahrenehit input, performs conversion, 
 # and returns the result.
 
-result = farenheit_celcius(98.6)
-print(f"98.6 F converts to {result} C.")
+int_f = float(input("Enter Fahrenheit Temp: "))
+result = fahrenheit_celsius(int_f)
+print(f"{int_f}° F converts to {result:.1f}° C.")
+
