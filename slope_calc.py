@@ -1,9 +1,9 @@
-# Gather coordinates points.
+# Gather coordinate points.
 
 x_1 = int(input("Enter first x-coordinate: "))
 y_1 = int(input("Enter first y-coordinate: "))
 x_2 = int(input("Enter second x-coordinate: "))
-y_2 = int(input("Enter second y-coordinate:)"))
+y_2 = int(input("Enter second y-coordinate: "))
 
 # Calculate the rise & run.
 

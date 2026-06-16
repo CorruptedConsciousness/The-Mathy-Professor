@@ -1,6 +1,5 @@
 # Converts degrees Celsius to degrees Farenheit.
 
-
 def celsius_fahrenheit(c_temp):
     f_temp = (c_temp * (9 / 5)) + 32
     return f_temp
