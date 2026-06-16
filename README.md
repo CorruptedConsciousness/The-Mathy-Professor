@@ -1,4 +1,4 @@
-# The Mathy Professor 🧮
+# The Mathy Python 🧮
 
 Contained within are mathematical practice scripts designed with readability and user experience in mind.
 
